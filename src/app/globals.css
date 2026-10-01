@@ -8,6 +8,13 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary: #D4FB20;
+  --color-secondary: #003BE2;
+  --color-textColor: #242528;
+  --color-pColor: #E5E6E8;
+  --color-shuttleGray: #82868E;
+  --color-sectionBg: #F5F5F6;
+
   --font-sans: var(--font-geist-sans);
   --font-poppins: var(--font-poppins);
 }
