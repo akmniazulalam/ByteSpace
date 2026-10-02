@@ -30,3 +30,36 @@ body {
   background: var(--background);
   color: var(--foreground);
 }
+
+
+.ornaments .spring_left {
+  position: absolute;
+  top: 19%;
+  left: -30px;
+}
+.ornaments .spring_left_middle {
+  position: absolute;
+  top: 48%;
+  left: 18%;
+}
+.ornaments .ring {
+  position: absolute;
+  bottom: 0px;
+  left: 6px;
+}
+.ornaments .cylinder {
+  position: absolute;
+  top: 22%;
+  right: -110px;
+}
+
+.ornaments .triangle {
+  position: absolute;
+  top: 40%;
+  right: 13%;
+}
+.ornaments .right_spring {
+  position: absolute;
+  bottom: 2%;
+  right: -20px;
+}
