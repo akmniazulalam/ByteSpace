@@ -4,7 +4,7 @@ import React from "react";
 const LogoPartner = () => {
   return (
     <section className="bg-sectionBg py-12 sm:py-14 md:py-16 lg:py-20.5">
-      <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8 xl:px-0">
         <div className="grid grid-cols-2 items-center justify-items-center gap-x-6 gap-y-8 sm:grid-cols-3 sm:gap-x-8 sm:gap-y-10 lg:grid-cols-5 lg:gap-x-10 lg:gap-y-0">
           {[
             "/Frame.png",
