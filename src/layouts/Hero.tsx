@@ -169,7 +169,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           className="spring_left"
         />
         <Image
-          src={"/ornament-spring-right-middle.png"}
+          src={"/ornament-spring-left-middle.png"}
           height={175}
           width={175}
           alt="spring_left_middle"
