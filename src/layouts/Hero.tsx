@@ -37,7 +37,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
   };
 
   return (
-    <section className="relative overflow-hidden bg-secondary bg-[linear-gradient(rgba(255,255,255,.12)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.12)_1px,transparent_1px)] bg-size-[64px_64px] pt-28 sm:pt-32 md:bg-size-[128px_128px] lg:pt-40">
+    <section className="relative overflow-hidden isolate bg-secondary bg-[linear-gradient(rgba(255,255,255,.12)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.12)_1px,transparent_1px)] bg-size-[64px_64px] pt-28 sm:pt-32 md:bg-size-[128px_128px] lg:pt-40">
       <div className="mx-auto max-w-300 px-4 text-center sm:px-6">
         <h1 className="mx-auto max-w-182.5 font-poppins text-3xl leading-[120%] font-semibold text-white sm:text-5xl md:text-6xl lg:max-w-218 lg:text-7xl">
           Get Access to Hundreds Courses Available
@@ -159,7 +159,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           </div>
         </div>
       </div>
-      <div className="absolute">
+      <div className="absolute inset-0 z-20 pointer-events-none ornaments" aria-hidden="true">
         <Image
           src={"/spring-left.png"}
           height={350}
