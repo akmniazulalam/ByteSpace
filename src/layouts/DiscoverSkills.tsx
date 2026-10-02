@@ -56,7 +56,7 @@ const DiscoverSkills = () => {
 
   return (
     <section className="bg-white py-14 sm:py-16 md:py-20 lg:py-17.5">
-      <div className="mx-auto max-w-300 px-4 sm:px-6 lg:px-0">
+      <div className="mx-auto max-w-300 px-4 sm:px-6 lg:px-8 xl:px-0">
         {/* Section Header */}
         <div className="mx-auto text-center">
           <Heading
