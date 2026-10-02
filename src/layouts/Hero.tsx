@@ -161,7 +161,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
       </div>
       <div className="absolute inset-0 z-20 pointer-events-none ornaments" aria-hidden="true">
         <Image
-          src={"/spring-left.png"}
+          src={"/ornament-spring-left.png"}
           height={350}
           width={350}
           alt="spring_left"
@@ -169,7 +169,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           className="spring_left"
         />
         <Image
-          src={"/spring-right-middle.png"}
+          src={"/ornament-spring-right-middle.png"}
           height={175}
           width={175}
           alt="spring_left_middle"
@@ -177,7 +177,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           className="spring_left_middle"
         />
         <Image
-          src={"/ring.png"}
+          src={"/ornament-ring.png"}
           height={342}
           width={342}
           alt="ring"
@@ -185,7 +185,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           className="ring"
         />
         <Image
-          src={"/cylinder.png"}
+          src={"/ornament-cylinder.png"}
           height={370}
           width={370}
           alt="cylinder"
@@ -193,7 +193,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           className="cylinder"
         />
         <Image
-          src={"/triangle.png"}
+          src={"/ornament-triangle.png"}
           height={188}
           width={188}
           alt="triangle"
@@ -201,7 +201,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           className="triangle"
         />
         <Image
-          src={"/right-bottom-spring.png"}
+          src={"/ornament-right-bottom-spring.png"}
           height={330}
           width={330}
           alt="right_spring"
