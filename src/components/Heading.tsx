@@ -15,7 +15,7 @@ export function Heading({
   return (
     <Tag
       className={cn(
-        "font-bold tracking-tight text-textColor text-3xl md:text-4xl lg:text-[44px] leading-[120%]",
+        "font-bold tracking-tight text-textColor text-3xl md:text-4xl lg:text-[42px] leading-[120%]",
         className
       )}
     >
