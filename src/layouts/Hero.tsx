@@ -138,7 +138,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           </div>
 
           {/* Progress card */}
-          <div className="absolute top-[30%] right-2 w-30 md:w-40 space-y-2 rounded-2xl bg-white p-3 text-left sm:block md:right-[6%] lg:top-[25%] lg:right-[24%] lg:w-auto lg:p-4">
+          <div className="absolute top-[24%] md:top-[30%] right-0 sm:right-2 w-33.5 md:w-40 space-y-2 rounded-2xl bg-white p-3 text-left sm:block md:right-[6%] lg:top-[25%] lg:right-[24%] lg:w-auto lg:p-4">
             <Heading
               as="h4"
               className="text-sm lg:text-sm leading-[120%] md:text-base font-medium">
