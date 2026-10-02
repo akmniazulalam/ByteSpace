@@ -165,6 +165,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           height={350}
           width={350}
           alt="spring_left"
+          aria-hidden="true"
           className="spring_left"
         />
         <Image
@@ -172,6 +173,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           height={175}
           width={175}
           alt="spring_left_middle"
+          aria-hidden="true"
           className="spring_left_middle"
         />
         <Image
@@ -179,6 +181,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           height={342}
           width={342}
           alt="ring"
+          aria-hidden="true"
           className="ring"
         />
         <Image
@@ -186,6 +189,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           height={370}
           width={370}
           alt="cylinder"
+          aria-hidden="true"
           className="cylinder"
         />
         <Image
@@ -193,6 +197,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           height={188}
           width={188}
           alt="triangle"
+          aria-hidden="true"
           className="triangle"
         />
         <Image
@@ -200,6 +205,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           height={330}
           width={330}
           alt="right_spring"
+          aria-hidden="true"
           className="right_spring"
         />
       </div>
