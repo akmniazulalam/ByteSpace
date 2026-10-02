@@ -71,11 +71,11 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
         </form>
 
         {/* Visual stage */}
-        <div className="relative mt-10 h-85 overflow-hidden sm:mt-14 sm:h-110 lg:h-130">
+        <div className="relative mt-5 md:mt-10 h-85 overflow-hidden sm:mt-14 sm:h-110 lg:h-130">
           {/* Ring */}
           <div
             aria-hidden="true"
-            className="absolute top-8 left-1/2 aspect-square w-160 -translate-x-1/2 rounded-full border-120 border-primary bg-transparent sm:top-12 sm:w-225 sm:border-200 lg:top-16 lg:w-290 lg:border-330"
+            className="absolute top-8 left-1/2 aspect-square w-86 -translate-x-1/2 rounded-full border-120 border-primary bg-transparent sm:top-12 sm:w-125 md:w-180 sm:border-200 lg:top-16 lg:w-244.5 xl:w-290 lg:border-290 xl:border-330"
           />
 
           {/* Hero image */}
@@ -92,7 +92,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           </div>
 
           {/* Category card */}
-          <div className="absolute top-[14%] left-2 hidden space-y-1 rounded-2xl bg-white p-3 text-left sm:block md:left-[6%] lg:top-[25%] lg:left-[18%] lg:p-4">
+          <div className="absolute top-[14%] left-2 hidden space-y-1 rounded-2xl bg-white p-3 text-left sm:block md:left-[10%] lg:top-[25%] lg:left-[18%] lg:p-4">
             <Heading
               as="h4"
               className="text-sm leading-[120%] font-medium md:text-base lg:text-base">
@@ -104,7 +104,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           </div>
 
           {/* Happy students card */}
-          <div className="absolute top-[58%] left-[2%] space-y-2 rounded-2xl bg-white p-3 text-left md:block lg:top-[60%] lg:left-[10%] lg:p-4">
+          <div className="absolute top-[58%] left-[2%] md:left-[11%] space-y-2 rounded-2xl bg-white p-3 text-left md:block lg:top-[60%] lg:left-[10%] lg:p-4">
             <div className="space-y-1">
               <Heading
                 as="h4"
@@ -126,7 +126,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
                   width={43}
                   height={43}
                   alt=""
-                  className={`h-9 w-9 object-cover lg:h-11 lg:w-11 ${i > 0 ? "-ml-3 lg:-ml-4" : ""} ${i >= 3 ? "hidden lg:block" : ""}`}
+                  className={`h-9 w-9 object-cover lg:h-11 lg:w-11 ${i > 0 ? "-ml-3 lg:-ml-4" : ""} ${i >= 3 ? "hidden md:block" : ""}`}
                 />
               ))}
               <div className="-ml-3 flex h-9 w-9 items-center justify-center rounded-full bg-primary lg:-ml-4 lg:h-11 lg:w-11">
@@ -138,7 +138,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           </div>
 
           {/* Progress card */}
-          <div className="absolute top-[24%] md:top-[30%] right-0 sm:right-2 w-33.5 md:w-40 space-y-2 rounded-2xl bg-white p-3 text-left sm:block md:right-[6%] lg:top-[25%] lg:right-[24%] lg:w-auto lg:p-4">
+          <div className="absolute top-[24%] md:top-[30%] right-0 sm:right-2 w-33.5 md:w-47.5 space-y-1 md:space-y-2 rounded-2xl bg-white p-3 text-left sm:block md:right-[14%] lg:top-[25%] lg:right-[17%] xl:right-[24%] lg:w-auto lg:p-4">
             <Heading
               as="h4"
               className="text-sm lg:text-sm leading-[120%] md:text-base font-medium">
@@ -166,7 +166,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           width={350}
           alt="spring_left"
           aria-hidden="true"
-          className="spring_left"
+          className="spring_left lg:w-65 lg:h-65 xl:w-87.5 xl:h-87.5"
         />
         <Image
           src={"/ornament-spring-left-middle.png"}
@@ -182,7 +182,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           width={342}
           alt="ring"
           aria-hidden="true"
-          className="ring"
+          className="ring lg:w-70 lg:h-70 xl:h-85.5 xl:w-85.5"
         />
         <Image
           src={"/ornament-cylinder.png"}
@@ -190,7 +190,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           width={370}
           alt="cylinder"
           aria-hidden="true"
-          className="cylinder"
+          className="cylinder lg:w-75 lg:h-75 xl:w-92.5 xl:h-92.5"
         />
         <Image
           src={"/ornament-triangle.png"}
@@ -206,7 +206,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           width={330}
           alt="right_spring"
           aria-hidden="true"
-          className="right_spring"
+          className="right_spring lg:w-70 lg:h-70 xl:h-82.5 xl:w-82.5"
         />
       </div>
     </section>
