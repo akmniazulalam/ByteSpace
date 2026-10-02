@@ -92,7 +92,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           </div>
 
           {/* Category card */}
-          <div className="absolute top-[14%] left-2 space-y-1 rounded-2xl bg-white p-3 text-left sm:block md:left-[6%] lg:top-[25%] lg:left-[18%] lg:p-4">
+          <div className="absolute top-[14%] left-2 hidden space-y-1 rounded-2xl bg-white p-3 text-left sm:block md:left-[6%] lg:top-[25%] lg:left-[18%] lg:p-4">
             <Heading
               as="h4"
               className="text-sm leading-[120%] font-medium md:text-base lg:text-base">
@@ -126,7 +126,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
                   width={43}
                   height={43}
                   alt=""
-                  className={`h-9 w-9 object-cover lg:h-11 lg:w-11 ${i > 0 ? "-ml-3 lg:-ml-4" : ""}`}
+                  className={`h-9 w-9 object-cover lg:h-11 lg:w-11 ${i > 0 ? "-ml-3 lg:-ml-4" : ""} ${i >= 3 ? "hidden lg:block" : ""}`}
                 />
               ))}
               <div className="-ml-3 flex h-9 w-9 items-center justify-center rounded-full bg-primary lg:-ml-4 lg:h-11 lg:w-11">
@@ -138,13 +138,13 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           </div>
 
           {/* Progress card */}
-          <div className="absolute top-[14%] right-2 w-30 space-y-2 rounded-2xl bg-white p-3 text-left sm:block md:right-[6%] lg:top-[25%] lg:right-[24%] lg:w-auto lg:p-4">
+          <div className="absolute top-[30%] right-2 w-30 md:w-40 space-y-2 rounded-2xl bg-white p-3 text-left sm:block md:right-[6%] lg:top-[25%] lg:right-[24%] lg:w-auto lg:p-4">
             <Heading
               as="h4"
               className="text-sm lg:text-sm leading-[120%] md:text-base font-medium">
               Learning Progress
             </Heading>
-            <Paragraph className="font-poppins text-4xl leading-[120%] font-semibold text-textColor lg:text-5xl">
+            <Paragraph className="font-poppins text-3xl md:text-4xl leading-[120%] font-semibold text-textColor lg:text-5xl">
               55%
             </Paragraph>
             <div
