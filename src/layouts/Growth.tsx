@@ -10,7 +10,7 @@ import { MdOutlineSignalCellularAlt } from "react-icons/md";
 const Growth = () => {
   return (
     <section className="bg-[#FAFAFA] py-16 sm:py-20 md:py-24 lg:py-29.5">
-      <div className="mx-auto max-w-300 space-y-20 overflow-hidden px-4 sm:px-6 md:space-y-24 lg:space-y-28 lg:overflow-visible lg:px-0">
+      <div className="mx-auto max-w-300 space-y-20 overflow-hidden px-4 sm:px-6 md:space-y-24 lg:space-y-28 lg:overflow-visible lg:px-8 xl:px-0">
         {/* =====================================================
         SECTION ONE
     ====================================================== */}
