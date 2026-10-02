@@ -387,7 +387,7 @@ const Signup = () => {
           <div className="col-span-9 lg:col-span-5 lg:col-start-7">
             <form
               onSubmit={handleSubmit}
-              className="rounded-3xl pt-15 px-16 pb-12.5 bg-white">
+              className="rounded-3xl pt-9 px-9 pb-6 lg:pt-15 lg:px-16 lg:pb-12.5 bg-white">
               <div className="space-y-30.5">
                 <div className="space-y-10">
                   <div className="">
