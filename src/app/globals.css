@@ -239,12 +239,13 @@ body {
   .ornaments .ring {
     width: 150px;
     height: 150px;
-    left: -55px;
+    left: -14px;
   }
 
   .ornaments .right_spring {
     width: 170px;
     height: 170px;
-    right: -75px;
+    right: -30px;
+    bottom: 15%;
   }
 }
