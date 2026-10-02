@@ -40,7 +40,7 @@ const Signup = () => {
             : "bg-transparent"
         }`}>
         <div className="grid grid-cols-12 h-20 px-4 sm:h-22 sm:px-6 lg:h-auto lg:px-0 lg:py-9">
-          <div className="md:col-start-2 col-span-5 md:col-span-2 flex items-center">
+          <div className="lg:col-start-2 col-span-5 md:col-span-3 lg:col-span-2 flex items-center">
             <Image
               src={"/Header_Logo.png"}
               alt="header_logo"
@@ -51,9 +51,9 @@ const Signup = () => {
           </div>
         </div>
       </header>
-      <section className="bg-secondary bg-[linear-gradient(rgba(255,255,255,.12)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.12)_1px,transparent_1px)] bg-size-[64px_64px] pt-24 sm:pt-32 pb-20 sm:pb-26 md:bg-size-[128px_128px] lg:pt-32 lg:pb-30">
-        <div className="grid grid-cols-5 lg:grid-cols-12 gap-10 lg:gap-0 px-4 sm:px-6 lg:px-0">
-          <div className="space-y-45 col-span-9 lg:col-start-2 lg:col-span-4">
+      <section className="bg-secondary bg-[linear-gradient(rgba(255,255,255,.12)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.12)_1px,transparent_1px)] bg-size-[64px_64px] pt-24 sm:pt-28 pb-20 sm:pb-26 md:bg-size-[128px_128px] lg:pt-32 lg:pb-30">
+        <div className="grid grid-cols-5 md:grid-cols-12 gap-y-25 lg:gap-0 px-4 sm:px-6 lg:px-0">
+          <div className="space-y-35 md:space-y-45 col-span-9 md:col-span-6 lg:col-start-2 lg:col-span-4">
             <div className="space-y-4">
               <h3 className="font-poppins font-semibold text-[20px] leading-[120%] text-sectionBg">
                 Sign up and come in
@@ -65,7 +65,7 @@ const Signup = () => {
               </Paragraph>
             </div>
             <div className="relative">
-              <article className="w-fit flex h-auto flex-col rounded-3xl border border-[#CED0D3] bg-white p-3.5 transition-shadow duration-300 hover:shadow-[0_10px_35px_rgba(0,0,0,0.06)] sm:p-4">
+              <article className="w-min xl:w-fit flex h-auto flex-col rounded-3xl border border-[#CED0D3] bg-white p-3.5 transition-shadow duration-300 hover:shadow-[0_10px_35px_rgba(0,0,0,0.06)] sm:p-4">
                 {/* Course Image */}
                 <div className="relative overflow-hidden rounded-xl">
                   <Image
@@ -99,7 +99,7 @@ const Signup = () => {
                     <div className="min-w-0 flex-1">
                       <Heading
                         as="h3"
-                        className="truncate font-poppins text-base font-semibold leading-[120%] text-black sm:text-lg lg:text-[20px]">
+                        className="truncate font-poppins text-base font-semibold leading-[120%] text-black sm:text-lg md:text-[20px] lg:text-[20px]">
                         {"Build Digital Asset"}
                       </Heading>
 
@@ -153,7 +153,7 @@ const Signup = () => {
                         width={32}
                         height={32}
                         alt=""
-                        className="-ml-2 h-8 w-8 rounded-full object-cover"
+                        className="-ml-2 h-8 w-8 hidden md:block rounded-full object-cover"
                       />
 
                       <Image
@@ -161,7 +161,7 @@ const Signup = () => {
                         width={32}
                         height={32}
                         alt=""
-                        className="-ml-2 h-8 w-8 rounded-full object-cover"
+                        className="-ml-2 h-8 w-8 hidden md:block rounded-full object-cover"
                       />
 
                       <div className="-ml-2 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-black">
@@ -183,7 +183,7 @@ const Signup = () => {
                   </div>
                 </div>
               </article>
-              <article className="absolute bottom-[26%] -right-2 w-fit flex h-auto flex-col rounded-3xl border border-[#CED0D3] bg-white p-3.5 transition-shadow duration-300 hover:shadow-[0_10px_35px_rgba(0,0,0,0.06)] sm:p-4">
+              <article className="absolute bottom-[26%] -right-0.5 md:right-[0%] lg:-right-30 xl:-right-2 w-min xl:w-fit flex h-auto flex-col rounded-3xl border border-[#CED0D3] bg-white p-3.5 transition-shadow duration-300 hover:shadow-[0_10px_35px_rgba(0,0,0,0.06)] sm:p-4">
                 {/* Course Image */}
                 <div className="relative overflow-hidden rounded-xl">
                   <Image
@@ -217,7 +217,7 @@ const Signup = () => {
                     <div className="min-w-0 flex-1">
                       <Heading
                         as="h3"
-                        className="truncate font-poppins text-base font-semibold leading-[120%] text-black sm:text-lg lg:text-[20px]">
+                        className="truncate font-poppins text-base font-semibold leading-[120%] text-black sm:text-lg md:text-[18px] lg:text-[20px]">
                         {"The Power of Big Data"}
                       </Heading>
 
@@ -271,7 +271,7 @@ const Signup = () => {
                         width={32}
                         height={32}
                         alt=""
-                        className="-ml-2 h-8 w-8 rounded-full object-cover"
+                        className="-ml-2 h-8 w-8 hidden md:block rounded-full object-cover"
                       />
 
                       <Image
@@ -279,7 +279,7 @@ const Signup = () => {
                         width={32}
                         height={32}
                         alt=""
-                        className="-ml-2 h-8 w-8 rounded-full object-cover"
+                        className="-ml-2 h-8 w-8 hidden md:block rounded-full object-cover"
                       />
 
                       <div className="-ml-2 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-black">
@@ -301,11 +301,11 @@ const Signup = () => {
                   </div>
                 </div>
               </article>
-              <div className="absolute bottom-[-20%] right-0 z-20 rounded-2xl bg-primary p-3 text-left shadow-sm sm:right-[-4%] sm:p-4 lg:right-[-2%]">
+              <div className="absolute bottom-[-18%] lg:right xl:bottom-[-20%] right-13.5 md:right-[0%] z-20 rounded-2xl bg-primary p-3 text-left shadow-sm sm:right-[-4%] sm:p-4 lg:right-[-22%] xl:right-[-2%]">
                 <div className="space-y-1">
                   <Heading
                     as="h4"
-                    className="text-xs font-medium leading-[120%] sm:text-base lg:text-base">
+                    className="text-xs font-medium leading-[120%] sm:text-base md:text-base lg:text-base">
                     Happy Students
                   </Heading>
 
@@ -340,7 +340,7 @@ const Signup = () => {
                     width={43}
                     height={43}
                     alt=""
-                    className="-ml-3 hidden h-8 w-8 rounded-full object-cover sm:block sm:-ml-4 sm:h-11 sm:w-11"
+                    className="-ml-3 h-8 w-8 rounded-full object-cover sm:block sm:-ml-4 sm:h-11 sm:w-11"
                   />
 
                   <Image
@@ -348,7 +348,7 @@ const Signup = () => {
                     width={43}
                     height={43}
                     alt=""
-                    className="-ml-3 hidden h-8 w-8 rounded-full object-cover sm:block sm:-ml-4 sm:h-11 sm:w-11"
+                    className="-ml-3 h-8 w-8 rounded-full object-cover sm:block sm:-ml-4 sm:h-11 sm:w-11"
                   />
 
                   <Image
@@ -356,7 +356,7 @@ const Signup = () => {
                     width={43}
                     height={43}
                     alt=""
-                    className="-ml-3 hidden h-8 w-8 rounded-full object-cover md:block sm:-ml-4 sm:h-11 sm:w-11"
+                    className="-ml-3 h-8 w-8 rounded-full object-cover md:block sm:-ml-4 sm:h-11 sm:w-11"
                   />
 
                   <Image
@@ -364,7 +364,7 @@ const Signup = () => {
                     width={43}
                     height={43}
                     alt=""
-                    className="-ml-3 hidden h-8 w-8 rounded-full object-cover md:block sm:-ml-4 sm:h-11 sm:w-11"
+                    className="-ml-3 h-8 w-8 rounded-full object-cover md:block sm:-ml-4 sm:h-11 sm:w-11"
                   />
 
                   <Image
@@ -372,7 +372,7 @@ const Signup = () => {
                     width={43}
                     height={43}
                     alt=""
-                    className="-ml-3 hidden h-8 w-8 rounded-full object-cover md:block sm:-ml-4 sm:h-11 sm:w-11"
+                    className="-ml-3 h-8 w-8 rounded-full object-cover md:block sm:-ml-4 sm:h-11 sm:w-11"
                   />
 
                   <div className="-ml-3 flex h-8 w-8 items-center justify-center rounded-full bg-black sm:-ml-4 sm:h-11 sm:w-11">
@@ -384,11 +384,11 @@ const Signup = () => {
               </div>
             </div>
           </div>
-          <div className="col-span-9 lg:col-span-5 lg:col-start-7">
+          <div className="col-span-9 md:col-span-5 lg:col-span-4 xl:col-span-5 md:col-start-8 lg:col-start-8 xl:col-start-7">
             <form
               onSubmit={handleSubmit}
-              className="rounded-3xl pt-9 px-9 pb-6 lg:pt-15 lg:px-16 lg:pb-12.5 bg-white">
-              <div className="space-y-30.5">
+              className="rounded-3xl pt-9 px-9 pb-6 lg:pt-13 lg:px-9 lg:pb-9 xl:pt-15 xl:px-16 xl:pb-12.5 bg-white">
+              <div className="space-y-15 md:space-y-30.5">
                 <div className="space-y-10">
                   <div className="">
                     <Paragraph className={"text-secondary"}>
@@ -396,7 +396,7 @@ const Signup = () => {
                     </Paragraph>
                     <Heading
                       as="h1"
-                      className="font-poppins font-semibold tracking-[-1%]">
+                      className="font-poppins font-semibold lg:text-[40px] xl:text-[44px] tracking-[-1%]">
                       Welcome to ByteSpace
                     </Heading>
                   </div>
