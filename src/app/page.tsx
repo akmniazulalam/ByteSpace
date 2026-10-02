@@ -7,7 +7,6 @@ import Hero from "@/layouts/Hero";
 import JoinCreator from "@/layouts/JoinCreator";
 import LogoPartner from "@/layouts/LogoPartner";
 import Testimonials from "@/layouts/Testimonials";
-import Image from "next/image";
 
 export default function Home() {
   return (
