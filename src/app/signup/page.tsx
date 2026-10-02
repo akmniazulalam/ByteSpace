@@ -8,6 +8,7 @@ import { MdOutlineSignalCellularAlt } from "react-icons/md";
 
 import type { FormEvent } from "react";
 import Button from "@/components/Button";
+import Link from "next/link";
 
 const Signup = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -446,7 +447,12 @@ const Signup = () => {
                   </div>
                 </div>
                 <div className="text-center">
-                  <Paragraph className={"text-[#4B4C53] text-base"}>Already have an account? <span className="text-secondary">Login</span></Paragraph>
+                  <Paragraph className={"text-[#4B4C53] text-base"}>
+                    Already have an account?{" "}
+                    <Link href={"/signin"} className="text-secondary">
+                      Login
+                    </Link>
+                  </Paragraph>
                 </div>
               </div>
             </form>
