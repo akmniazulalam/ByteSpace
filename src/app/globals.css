@@ -31,62 +31,140 @@ body {
   color: var(--foreground);
 }
 
-@keyframes ornamentFloat {
-  0% {
-    transform: translate3d(0, 0, 0) rotate(0deg);
-  }
-  50% {
-    transform: translate3d(0, -12px, 0) rotate(3deg);
-  }
+/* ================================
+   ORNAMENTS
+================================ */
+
+.ornaments {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  pointer-events: none;
+  user-select: none;
+  overflow: hidden;
+}
+
+.ornaments img {
+  position: absolute;
+  display: block;
+  will-change: transform;
+  transform-origin: center center;
+}
+
+/* ---------- Animations ---------- */
+
+@keyframes springFloat {
+  0%,
   100% {
     transform: translate3d(0, 0, 0) rotate(0deg);
   }
+
+  50% {
+    transform: translate3d(0, -10px, 0) rotate(3deg);
+  }
 }
 
-.ornaments {
-  user-select: none;
-  animation: ornamentFloat 7s ease-in-out infinite;
+@keyframes springRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
+
+@keyframes ringFloat {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+
+  50% {
+    transform: translate3d(0, -8px, 0) rotate(5deg);
+  }
+}
+
+@keyframes cylinderFloat {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+
+  50% {
+    transform: translate3d(0, -12px, 0) rotate(-4deg);
+  }
+}
+
+@keyframes triangleFloat {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+
+  50% {
+    transform: translate3d(0, -7px, 0) rotate(5deg);
+  }
+}
+
+
+/* ---------- Individual ornaments ---------- */
 
 .ornaments .spring_left {
-  position: absolute;
   top: 19%;
   left: -30px;
-  animation-duration: 9s;
+
+  animation: springRotate 14s linear infinite;
 }
+
 .ornaments .spring_left_middle {
-  position: absolute;
   top: 48%;
   left: 18%;
-  animation-duration: 6s;
+
+  animation: springFloat 6s ease-in-out infinite;
   animation-delay: -2s;
 }
+
 .ornaments .ring {
-  position: absolute;
-  bottom: 0px;
+  bottom: 0;
   left: 6px;
-  animation-duration: 6s;
-  animation-delay: -4s;
+
+  animation: ringFloat 8s ease-in-out infinite;
+  animation-delay: -3s;
 }
+
 .ornaments .cylinder {
-  position: absolute;
   top: 22%;
   right: -110px;
-  animation-duration: 7s;
-  animation-delay: -5s;
+
+  animation: cylinderFloat 9s ease-in-out infinite;
+  animation-delay: -4s;
 }
 
 .ornaments .triangle {
-  position: absolute;
   top: 40%;
   right: 13%;
-  animation-duration: 4s;
-  animation-delay: -3s;
+
+  animation: triangleFloat 7s ease-in-out infinite;
+  animation-delay: -2s;
 }
+
 .ornaments .right_spring {
-  position: absolute;
   bottom: 2%;
   right: -20px;
-  animation-duration: 4s;
-  animation-delay: -2s;
+
+  animation: springRotate 16s linear infinite reverse;
+}
+
+
+/* ---------- Accessibility ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .ornaments img {
+    animation: none !important;
+  }
 }
