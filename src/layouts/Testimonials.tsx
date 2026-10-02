@@ -6,7 +6,7 @@ import React from "react";
 const Testimonials = () => {
   return (
     <section className="bg-[#FAFAFA] py-14 sm:py-16 lg:py-18.5">
-      <div className="mx-auto max-w-300 px-4 sm:px-6 lg:px-0">
+      <div className="mx-auto max-w-300 px-4 sm:px-6 lg:px-8 xl:px-0">
         <div className="space-y-12 sm:space-y-14 lg:space-y-18">
           {/* Section Header */}
           <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:gap-11">
