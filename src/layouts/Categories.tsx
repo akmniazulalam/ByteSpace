@@ -12,7 +12,7 @@ import {
 const Categories = () => {
   return (
     <section className="bg-white pb-16 sm:pb-20 md:pb-24 lg:pb-30">
-      <div className="mx-auto max-w-300 px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-300 px-4 sm:px-6 lg:px-8 xl:px-0">
         {/* Section Header */}
         <div className="mx-auto max-w-230 text-center">
           <Heading
