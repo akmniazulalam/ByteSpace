@@ -92,10 +92,10 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           </div>
 
           {/* Category card */}
-          <div className="absolute top-[14%] left-2 hidden space-y-1 rounded-2xl bg-white p-3 text-left sm:block md:left-[6%] lg:top-[25%] lg:left-[18%] lg:p-4">
+          <div className="absolute top-[14%] left-2 space-y-1 rounded-2xl bg-white p-3 text-left sm:block md:left-[6%] lg:top-[25%] lg:left-[18%] lg:p-4">
             <Heading
               as="h4"
-              className="text-sm leading-[120%] font-medium lg:text-base">
+              className="text-sm leading-[120%] font-medium md:text-base lg:text-base">
               UI/UX Design
             </Heading>
             <Paragraph className="text-[12px] text-shuttleGray">
@@ -104,11 +104,11 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           </div>
 
           {/* Happy students card */}
-          <div className="absolute top-[58%] left-[2%] hidden space-y-2 rounded-2xl bg-white p-3 text-left md:block lg:top-[60%] lg:left-[10%] lg:p-4">
+          <div className="absolute top-[58%] left-[2%] space-y-2 rounded-2xl bg-white p-3 text-left md:block lg:top-[60%] lg:left-[10%] lg:p-4">
             <div className="space-y-1">
               <Heading
                 as="h4"
-                className="text-sm leading-[120%] font-medium lg:text-base">
+                className="text-sm leading-[120%] font-medium md:text-base lg:text-base">
                 Happy Students
               </Heading>
               <div className="flex items-center gap-0.5">
@@ -138,10 +138,10 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           </div>
 
           {/* Progress card */}
-          <div className="absolute top-[14%] right-2 hidden w-40 space-y-2 rounded-2xl bg-white p-3 text-left sm:block md:right-[6%] lg:top-[25%] lg:right-[24%] lg:w-auto lg:p-4">
+          <div className="absolute top-[14%] right-2 w-40 space-y-2 rounded-2xl bg-white p-3 text-left sm:block md:right-[6%] lg:top-[25%] lg:right-[24%] lg:w-auto lg:p-4">
             <Heading
               as="h4"
-              className="text-sm lg:text-sm leading-[120%] font-medium">
+              className="text-sm lg:text-sm leading-[120%] md:text-base font-medium">
               Learning Progress
             </Heading>
             <Paragraph className="font-poppins text-4xl leading-[120%] font-semibold text-textColor lg:text-5xl">
