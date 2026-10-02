@@ -7,11 +7,11 @@ import React from "react";
 const Footer = () => {
   return (
     <section className="bg-white pt-14 sm:pt-16 lg:pt-17.5 pb-8 sm:pb-10 lg:pb-11">
-      <div className="mx-auto max-w-300 px-4 sm:px-6 lg:px-0">
+      <div className="mx-auto max-w-300 px-4 sm:px-6 lg:px-8 xl:px-0">
         {/* Main Footer */}
-        <div className="flex flex-col gap-12 pb-16 sm:pb-20 lg:flex-row lg:gap-16 lg:pb-32.5 xl:gap-23">
+        <div className="flex flex-col gap-12 pb-16 sm:pb-20 lg:flex-row lg:gap-15 lg:pb-32.5 xl:gap-23">
           {/* Newsletter */}
-          <div className="w-full max-w-132 shrink-0">
+          <div className="w-full max-w-102.5 xl:max-w-132 shrink-0">
             <div className="space-y-4">
               <Link href="/" aria-label="ByteSpace home">
                 <Image
@@ -60,7 +60,7 @@ const Footer = () => {
           {/* Footer Navigation */}
           <nav
             aria-label="Footer navigation"
-            className="grid w-full grid-cols-2 gap-x-8 gap-y-10 sm:grid-cols-3 sm:gap-x-10 sm:gap-y-0 lg:flex lg:justify-between lg:gap-8">
+            className="grid w-full grid-cols-2 gap-x-8 gap-y-10 sm:grid-cols-3 sm:gap-x-10 sm:gap-y-0 lg:flex lg:justify-between lg:gap-2.5 xl:gap-8">
             {/* Browse */}
             <div className="space-y-5 sm:space-y-6 lg:w-41.75">
               <h4 className="text-base font-semibold leading-9 text-black">
