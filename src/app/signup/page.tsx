@@ -384,7 +384,73 @@ const Signup = () => {
               </div>
             </div>
           </div>
-          
+          <div className="col-span-9 lg:col-span-5 lg:col-start-7">
+            <form
+              onSubmit={handleSubmit}
+              className="rounded-3xl pt-15 px-16 pb-12.5 bg-white">
+              <div className="space-y-30.5">
+                <div className="space-y-10">
+                  <div className="">
+                    <Paragraph className={"text-secondary"}>
+                      Create an Account
+                    </Paragraph>
+                    <Heading
+                      as="h1"
+                      className="font-poppins font-semibold tracking-[-1%]">
+                      Welcome to ByteSpace
+                    </Heading>
+                  </div>
+                  <div className="space-y-6">
+                    <div className="space-y-2">
+                      <label
+                        htmlFor="name"
+                        className="font-medium text-sm leading-[120%] text-textColor">
+                        Full Name
+                      </label>
+                      <input
+                        id="name"
+                        type="text"
+                        className="mt-2 rounded-xl py-3 px-6 w-full border border-pColor font-normal text-[18px] placeholder:text-shuttleGray text-textColor leading-[160%] focus:outline-0"
+                        placeholder="Jamie Davis"
+                      />
+                    </div>
+                    <div className="space-y-2">
+                      <label
+                        htmlFor="email"
+                        className="font-medium text-sm leading-[120%] text-textColor">
+                        Email
+                      </label>
+                      <input
+                        id="email"
+                        type="email"
+                        className="mt-2 rounded-xl py-3 px-6 w-full border border-pColor font-normal text-[18px] placeholder:text-shuttleGray text-textColor leading-[160%] focus:outline-0"
+                        placeholder="designer@example.com"
+                      />
+                    </div>
+                    <div className="space-y-2">
+                      <label
+                        htmlFor="password"
+                        className="font-medium text-sm leading-[120%] text-textColor">
+                        Password
+                      </label>
+                      <input
+                        id="password"
+                        type="password"
+                        className="mt-2 rounded-xl py-3 px-6 w-full border border-pColor font-normal text-[18px] placeholder:text-shuttleGray text-textColor leading-[160%] focus:outline-0"
+                        placeholder="********"
+                      />
+                    </div>
+                    <div className="text-end">
+                      <Button>Continue</Button>
+                    </div>
+                  </div>
+                </div>
+                <div className="text-center">
+                  <Paragraph className={"text-[#4B4C53] text-base"}>Already have an account? <span className="text-secondary">Login</span></Paragraph>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
       </section>
     </>
