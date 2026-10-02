@@ -240,12 +240,13 @@ body {
     width: 150px;
     height: 150px;
     left: -14px;
+    bottom: 20%;
   }
 
   .ornaments .right_spring {
     width: 170px;
     height: 170px;
     right: -30px;
-    bottom: 15%;
+    bottom: -1%;
   }
 }
