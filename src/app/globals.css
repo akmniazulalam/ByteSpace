@@ -31,35 +31,62 @@ body {
   color: var(--foreground);
 }
 
+@keyframes ornamentFloat {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate3d(0, -12px, 0) rotate(3deg);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+}
+
+.ornaments {
+  user-select: none;
+  animation: ornamentFloat 7s ease-in-out infinite;
+}
 
 .ornaments .spring_left {
   position: absolute;
   top: 19%;
   left: -30px;
+  animation-duration: 9s;
 }
 .ornaments .spring_left_middle {
   position: absolute;
   top: 48%;
   left: 18%;
+  animation-duration: 6s;
+  animation-delay: -2s;
 }
 .ornaments .ring {
   position: absolute;
   bottom: 0px;
   left: 6px;
+  animation-duration: 6s;
+  animation-delay: -4s;
 }
 .ornaments .cylinder {
   position: absolute;
   top: 22%;
   right: -110px;
+  animation-duration: 7s;
+  animation-delay: -5s;
 }
 
 .ornaments .triangle {
   position: absolute;
   top: 40%;
   right: 13%;
+  animation-duration: 4s;
+  animation-delay: -3s;
 }
 .ornaments .right_spring {
   position: absolute;
   bottom: 2%;
   right: -20px;
+  animation-duration: 4s;
+  animation-delay: -2s;
 }
