@@ -9,8 +9,8 @@ import { MdOutlineSignalCellularAlt } from "react-icons/md";
 
 const Growth = () => {
   return (
-    <section className="bg-[#FAFAFA] py-16 sm:py-20 md:py-24 lg:py-29.5">
-      <div className="mx-auto max-w-300 space-y-20 overflow-hidden px-4 sm:px-6 md:space-y-24 lg:space-y-28 lg:overflow-visible lg:px-8 xl:px-0">
+    <section className="bg-[#FAFAFA] py-16 sm:py-20 md:py-24 lg:py-29.5 relative overflow-hidden">
+      <div className="relative z-20 mx-auto max-w-300 space-y-20 overflow-hidden px-4 sm:px-6 md:space-y-24 lg:space-y-28 lg:overflow-visible lg:px-8 xl:px-0">
         {/* =====================================================
         SECTION ONE
     ====================================================== */}
@@ -394,6 +394,8 @@ const Growth = () => {
           </div>
         </div>
       </div>
+      <div className="absolute top-[-30%] left-[-10%] h-284.25 w-284.25 rounded-full bg-[radial-gradient(circle,#CBFC01_0%,rgba(202,252,1,0.23)_53%,rgba(202,252,1,0.06)_75%,transparent_100%)] opacity-40 blur-2xl"></div>
+      <div className="absolute top-[-40%] right-[-45%] h-284.25 w-284.25 rounded-full bg-[radial-gradient(circle,#003BE2_0%,rgba(0,60,226,0.23)_53%,rgba(0,60,226,0.06)_75%,transparent_100%)] opacity-8 blur-2xl"></div>
     </section>
   );
 };
