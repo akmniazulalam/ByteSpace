@@ -67,7 +67,9 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
               className="w-full min-w-0 text-base font-normal text-textColor placeholder:text-base placeholder:font-normal placeholder:text-shuttleGray focus:outline-0 sm:text-[18px] sm:placeholder:text-[18px]"
             />
           </label>
-          <Button className="w-full sm:w-auto">Search</Button>
+          <button className="w-full sm:w-auto py-3 px-6 bg-primary hover:bg-[#acca24] transition-colors duration-50 ease-in-out rounded-full font-medium text-[18px] text-textColor cursor-pointer">
+            Search
+          </button>
         </form>
 
         {/* Visual stage */}
@@ -159,7 +161,9 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           </div>
         </div>
       </div>
-      <div className="absolute inset-0 z-20 pointer-events-none ornaments" aria-hidden="true">
+      <div
+        className="absolute inset-0 z-20 pointer-events-none ornaments"
+        aria-hidden="true">
         <Image
           src={"/ornament-spring-left.png"}
           height={350}
