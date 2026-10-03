@@ -396,6 +396,9 @@ const Growth = () => {
       </div>
       <div className="absolute top-[-30%] left-[-10%] h-284.25 w-284.25 rounded-full bg-[radial-gradient(circle,#CBFC01_0%,rgba(202,252,1,0.23)_53%,rgba(202,252,1,0.06)_75%,transparent_100%)] opacity-40 blur-2xl"></div>
       <div className="absolute top-[-40%] right-[-45%] h-284.25 w-284.25 rounded-full bg-[radial-gradient(circle,#003BE2_0%,rgba(0,60,226,0.23)_53%,rgba(0,60,226,0.06)_75%,transparent_100%)] opacity-8 blur-2xl"></div>
+      <div className="absolute bottom-[-30%] right-[-28%] h-284.25 w-284.25 rounded-full bg-[radial-gradient(circle,#003BE2_0%,rgba(0,60,226,0.23)_53%,rgba(0,60,226,0.06)_75%,transparent_100%)] opacity-24 blur-2xl"></div>
+      <div className="absolute bottom-[10%] left-[-45%] h-284.25 w-284.25 rounded-full bg-[radial-gradient(circle,#003BE2_0%,rgba(0,60,226,0.23)_53%,rgba(0,60,226,0.06)_75%,transparent_100%)] opacity-16 blur-2xl"></div>
+      <div className="absolute bottom-[-10%] left-[-16%] h-168 w-2xl rounded-full bg-[radial-gradient(circle,#CBFC01_0%,rgba(202,252,1,0.23)_53%,rgba(202,252,1,0.06)_75%,transparent_100%)] opacity-60 blur-2xl"></div>
     </section>
   );
 };
