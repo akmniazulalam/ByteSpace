@@ -51,6 +51,19 @@ body {
   transform-origin: center center;
 }
 
+.growth {
+  z-index: 30;
+  pointer-events: none;
+  user-select: none;
+  overflow: hidden;
+}
+
+.growth img {
+  display: block;
+  will-change: transform;
+  transform-origin: center center;
+}
+
 /* =================================
    ANIMATIONS
 ================================= */
@@ -110,6 +123,17 @@ body {
   }
 }
 
+@keyframes growthSpring {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) rotate(-4deg);
+  }
+
+  50% {
+    transform: translate3d(0, -15px, 0) rotate(3deg);
+  }
+}
+
 /* =================================
    INDIVIDUAL ORNAMENTS
 ================================= */
@@ -159,6 +183,10 @@ body {
 
   animation: springFloat 4s ease-in-out infinite reverse;
   animation-delay: -1s;
+}
+
+.growth .ornament-spring-left {
+  animation: growthSpring 6s ease-in-out infinite;
 }
 
 /* =================================
@@ -258,5 +286,19 @@ body {
     height: 170px;
     right: -30px;
     bottom: -1%;
+  }
+
+  .mobile-growth-spring-two {
+    width: 160px;
+    height: 160px;
+    top: 22%;
+    right: -9%;
+  }
+
+  .mobile-growth-spring-one {
+    top: 20%;
+    right: -4%;
+    width: 160px;
+    height: 160px;
   }
 }
