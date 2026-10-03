@@ -64,6 +64,22 @@ body {
   transform-origin: center center;
 }
 
+.creator {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  pointer-events: none;
+  user-select: none;
+  overflow: hidden;
+}
+
+.creator img {
+  position: absolute;
+  display: block;
+  will-change: transform;
+  transform-origin: center center;
+}
+
 /* =================================
    ANIMATIONS
 ================================= */
@@ -187,6 +203,60 @@ body {
 
 .growth .ornament-spring-left {
   animation: growthSpring 6s ease-in-out infinite;
+}
+
+.creator .spring_left {
+  top: -18%;
+  left: -6%;
+
+  /* animation: springFloat 7s ease-in-out infinite; */
+}
+
+.creator .spring_left_middle {
+  top: 0%;
+  left: 13%;
+
+  /* animation: softFloat 6.5s ease-in-out infinite; */
+  animation-delay: -2s;
+}
+
+.creator .cone {
+  bottom: 68px;
+  left: -53px;
+
+  /* animation: ringFloat 8.5s ease-in-out infinite; */
+  animation-delay: -1s;
+}
+
+.creator .ring {
+  bottom: -33%;
+
+  /* animation: ringFloat 8.5s ease-in-out infinite; */
+  animation-delay: -1s;
+}
+
+.creator .cylinder {
+  top: 0%;
+  right: -10%;
+
+  /* animation: cylinderFloat 9s ease-in-out infinite; */
+  animation-delay: -4s;
+}
+
+.creator .triangle {
+  top: 0%;
+  right: 15%;
+
+  /* animation: triangleFloat 7s ease-in-out infinite; */
+  animation-delay: -2s;
+}
+
+.creator .right_spring {
+  bottom: -28%;
+  right: 50px;
+
+  /* animation: springFloat 4s ease-in-out infinite reverse; */
+  animation-delay: -1s;
 }
 
 /* =================================
