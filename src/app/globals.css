@@ -283,6 +283,21 @@ body {
     bottom: 14%;
     left: -38px;
   }
+
+  .creator .cylinder {
+    right: -14%;
+  }
+
+  .creator .right_spring {
+    right: -20px;
+    bottom: -20%;
+  }
+  .creator .spring_left {
+    height: 250px;
+    width: 250px;
+    left: -7%;
+    top: -9%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -325,16 +340,15 @@ body {
     right: -20px;
   }
 
-
   .creator .right_spring {
     height: 195px;
     width: 195px;
-        right: -20px;
+    right: -20px;
     bottom: -2%;
   }
 
   .creator .triangle {
-        width: 150px;
+    width: 150px;
     height: 150px;
     top: 20%;
   }
@@ -355,7 +369,7 @@ body {
 
   .creator .ring {
     display: block;
-        width: 250px;
+    width: 250px;
     height: 250px;
     bottom: -28%;
   }
