@@ -266,7 +266,7 @@ const Growth = () => {
               <div className="space-y-1">
                 <Heading
                   as="h4"
-                  className="text-xs font-medium leading-[120%] sm:text-base lg:text-base">
+                  className="text-xs font-medium leading-[120%] sm:text-base md:text-base lg:text-base">
                   Happy Students
                 </Heading>
 
