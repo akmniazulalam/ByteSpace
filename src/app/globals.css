@@ -209,14 +209,14 @@ body {
   top: -18%;
   left: -6%;
 
-  /* animation: springFloat 7s ease-in-out infinite; */
+  animation: springFloat 7s ease-in-out infinite;
 }
 
 .creator .spring_left_middle {
   top: 0%;
   left: 13%;
 
-  /* animation: softFloat 6.5s ease-in-out infinite; */
+  animation: softFloat 6.5s ease-in-out infinite;
   animation-delay: -2s;
 }
 
@@ -224,14 +224,14 @@ body {
   bottom: 68px;
   left: -53px;
 
-  /* animation: ringFloat 8.5s ease-in-out infinite; */
+  animation: ringFloat 6s ease-in-out infinite;
   animation-delay: -1s;
 }
 
 .creator .ring {
   bottom: -33%;
 
-  /* animation: ringFloat 8.5s ease-in-out infinite; */
+  animation: ringFloat 8.5s ease-in-out infinite;
   animation-delay: -1s;
 }
 
@@ -239,7 +239,7 @@ body {
   top: 0%;
   right: -10%;
 
-  /* animation: cylinderFloat 9s ease-in-out infinite; */
+  animation: cylinderFloat 9s ease-in-out infinite;
   animation-delay: -4s;
 }
 
@@ -247,7 +247,7 @@ body {
   top: 0%;
   right: 15%;
 
-  /* animation: triangleFloat 7s ease-in-out infinite; */
+  animation: triangleFloat 7s ease-in-out infinite;
   animation-delay: -2s;
 }
 
@@ -255,7 +255,7 @@ body {
   bottom: -28%;
   right: 50px;
 
-  /* animation: springFloat 4s ease-in-out infinite reverse; */
+  animation: springFloat 4s ease-in-out infinite reverse;
   animation-delay: -1s;
 }
 
