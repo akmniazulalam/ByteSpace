@@ -177,7 +177,7 @@ const Growth = () => {
             <div className="absolute right-0 top-[45%] z-20 rounded-2xl bg-white p-3 text-left shadow-sm sm:right-[-2%] sm:p-4 lg:right-[-3%]">
               <Heading
                 as="h4"
-                className="text-xs font-medium leading-[120%] sm:text-sm lg:text-sm">
+                className="text-xs font-medium leading-[120%] sm:text-sm md:text-sm lg:text-sm">
                 Learning Progress
               </Heading>
 
@@ -343,6 +343,16 @@ const Growth = () => {
                 </div>
               </div>
             </div>
+
+            <div className="absolute growth inset-0">
+        <Image
+          src={"/ornament-spring-left.png"}
+          width={215}
+          height={215}
+          alt="growth_ornament_one"
+          className="ornament-spring-left mobile-growth-spring-two absolute right-[-7%] top-[21%]"
+        />
+      </div>
           </div>
 
           {/* Content */}
@@ -399,6 +409,15 @@ const Growth = () => {
       <div className="absolute bottom-[-30%] right-[-28%] h-284.25 w-284.25 rounded-full bg-[radial-gradient(circle,#003BE2_0%,rgba(0,60,226,0.23)_53%,rgba(0,60,226,0.06)_75%,transparent_100%)] opacity-24 blur-2xl"></div>
       <div className="absolute bottom-[10%] left-[-45%] h-284.25 w-284.25 rounded-full bg-[radial-gradient(circle,#003BE2_0%,rgba(0,60,226,0.23)_53%,rgba(0,60,226,0.06)_75%,transparent_100%)] opacity-16 blur-2xl"></div>
       <div className="absolute bottom-[-10%] left-[-16%] h-168 w-2xl rounded-full bg-[radial-gradient(circle,#CBFC01_0%,rgba(202,252,1,0.23)_53%,rgba(202,252,1,0.06)_75%,transparent_100%)] opacity-60 blur-2xl"></div>
+      <div className="absolute growth inset-0">
+        <Image
+          src={"/ornament-right-bottom-spring.png"}
+          width={215}
+          height={215}
+          alt="growth_ornament_one"
+          className="ornament-spring-left mobile-growth-spring-one absolute right-[5%] top-[5%]"
+        />
+      </div>
     </section>
   );
 };
