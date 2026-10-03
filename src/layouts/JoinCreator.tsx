@@ -2,7 +2,6 @@ import Button from "@/components/Button";
 import { Heading } from "@/components/Heading";
 import Paragraph from "@/components/Paragraph";
 import Image from "next/image";
-import React from "react";
 
 const JoinCreator = () => {
   return (
