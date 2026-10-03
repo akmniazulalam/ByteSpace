@@ -80,6 +80,21 @@ body {
   transform-origin: center center;
 }
 
+.authOrnaments {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  pointer-events: none;
+  user-select: none;
+}
+
+.authOrnaments img {
+  position: absolute;
+  display: block;
+  will-change: transform;
+  transform-origin: center center;
+}
+
 /* =================================
    ANIMATIONS
 ================================= */
@@ -256,6 +271,19 @@ body {
   right: 50px;
 
   animation: springFloat 4s ease-in-out infinite reverse;
+  animation-delay: -1s;
+}
+
+.authOrnaments .ring {
+  animation: ringFloat 7s ease-in-out infinite;
+  animation-delay: -1s;
+}
+.authOrnaments .triangle {
+   animation: triangleFloat 5s ease-in-out infinite;
+   animation-delay: -2s;
+}
+.authOrnaments .spring {
+  animation: softFloat 6.5s ease-in-out infinite;
   animation-delay: -1s;
 }
 
@@ -455,4 +483,12 @@ body {
   .creator .cylinder {
     display: none;
   }
+
+  .authOrnaments .spring {
+    right: -2%;
+}
+.authOrnaments .triangle {
+    width: 160px;
+    height: 160px;
+}
 }
