@@ -53,8 +53,8 @@ const Signup = () => {
         </div>
       </header>
       <section className="bg-secondary bg-[linear-gradient(rgba(255,255,255,.12)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.12)_1px,transparent_1px)] bg-size-[64px_64px] pt-24 sm:pt-28 pb-20 sm:pb-26 md:bg-size-[128px_128px] lg:pt-32 lg:pb-30">
-        <div className="grid grid-cols-5 md:grid-cols-12 gap-y-25 lg:gap-0 px-4 sm:px-6 lg:px-0">
-          <div className="space-y-35 md:space-y-45 col-span-9 md:col-span-6 lg:col-start-2 lg:col-span-4">
+        <div className="grid grid-cols-5 md:grid-cols-12 gap-y-3 lg:gap-0 px-4 sm:px-6 lg:px-0">
+          <div className="relative space-y-35 md:space-y-45 col-span-9 md:col-span-6 lg:col-start-2 lg:col-span-4">
             <div className="space-y-4">
               <h3 className="font-poppins font-semibold text-[20px] leading-[120%] text-sectionBg">
                 Sign up and come in
@@ -384,6 +384,29 @@ const Signup = () => {
                 </div>
               </div>
             </div>
+            <div className="absolute inset-0 z-20 authOrnaments">
+                          <Image
+                            src={"/ornament-ring.png"}
+                            width={146}
+                            height={146}
+                            alt="ring"
+                            className="ring w-36.5 h-36.5 absolute top-[22%] left-9.5"
+                          />
+                          <Image
+                            src={"/ornament-triangle.png"}
+                            width={188}
+                            height={188}
+                            alt="triangle"
+                            className="triangle w-47 h-47 absolute bottom-[9%] -left-6"
+                          />
+                          <Image
+                            src={"/ornament-spring-left-middle.png"}
+                            width={175}
+                            height={175}
+                            alt="spring"
+                            className="spring w-43.75 h-43.75 absolute bottom-[20%] -right-12"
+                          />
+                        </div>
           </div>
           <div className="col-span-9 md:col-span-5 lg:col-span-4 xl:col-span-5 md:col-start-8 lg:col-start-8 xl:col-start-7">
             <form
